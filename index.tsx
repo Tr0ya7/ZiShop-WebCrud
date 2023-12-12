@@ -18,7 +18,7 @@ interface Api {
 export default function Home() {
   const defaultDisplay = 'hidden'
   const [productName, setProductName] = useState('')
-  const [productId, setProductId] = useState<number>(0)
+  const [productId, setProductId] = useState<number>()
   const [products, setProducts] = useState<Api[]>([])
   const [display, setDisplay] = useState(defaultDisplay)
 
